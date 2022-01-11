@@ -1,0 +1,26 @@
+Script started on 2021년 09월 29일 (수) 오전 11시 48분 04초
+[?1034hnetpa23@~/ 999$ cd prog
+netpa23@~/prog/ 1000$ ./open_socket
+/etc/passwd's file descriptor = 3
+stream socket descriptor = 4
+datagram socket descriptor =5
+/etc/host's file descriptor = 6
+netpa23@~/prog/ 1001$ ./byte_order
+UDP 에코 포트번호(네트워크 순서): 1792
+UDP 에코 포트번호(호스트 순서): 7
+netpa23@~/prog/ 1002$ ./s[Kascc[Kii_op [K[K[Kip 203.249.123.1[K213
+* 입력한 dotted decimal IP 주소: 203.249.123.213
+ inet_pton(203.249.123.213) = 0xD57BF9CB
+ inet_ntop(0xD57BF9CB)  = 203.249.123.213
+netpa23@~/prog/ 1003$ ./get_hostent css.skuniv.ac.kr
+호스트 이름	: css.skuniv.ac.kr
+호스트 주소타입 번호: 2
+호스트주소의 길이: 4 바이트
+IP 주소 (1 번째)	:117.17.142.162
+호스트 별명(1 번째)	:css
+
+netpa23@~/prog/ 1004$ ./get_host_byaddr 117.17.142.162
+호스트 이름: css.skuniv.ac.kr
+netpa23@~/prog/ 1005$ exit
+
+Script done on 2021년 09월 29일 (수) 오전 11시 49분 12초
